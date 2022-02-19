@@ -3,9 +3,23 @@
 }
 
 #content {
-  background-color: red;
-  background-image: url('./images/elephants_sitting.jpeg');
+  background-color: palegoldenrod;
+  display: flex;
+  flex-direction: column;
+
 }
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Navbar */
 
 .navbar {
   display: flex;
@@ -20,4 +34,23 @@
   color: dodgerblue;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.nav-item:hover {
+  color: darkgray;
+}
+
+.active-nav {
+  color: darkgoldenrod;
+}
+
+.active-nav:hover {
+  color: darkgoldenrod;
+}
+
+/* Headers */
+
+h1 {
+  text-align: center;
+  color: darkblue;
 }
