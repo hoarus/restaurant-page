@@ -9,7 +9,7 @@ let currentPage = "Home";
 
 generateNavbar();
 
-
+generateHomePage();
 
 
 
